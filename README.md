@@ -1,5 +1,5 @@
 ## Ex. No: 3  DHCP Configuration Using a Router
-Date:
+## Date:28.10.2026
 ________________________________________
 # Objective
 To configure a router to automatically assign IP addresses to client PCs using the Dynamic Host Configuration Protocol (DHCP).
@@ -16,7 +16,8 @@ Description:<br>
 •	PC0 and PC1 are connected to Switch0.<br>
 •	Switch0 is connected to Router0 on FastEthernet0/0.<br>
 •	The router acts as a DHCP server for the connected LAN.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/43229af2-6bb1-4654-b2ee-913e86b5bb10" />
+
 ________________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
@@ -65,6 +66,20 @@ ________________________________________
 •	DHCP IP configuration shown in PC0 and PC1<br>
 •	Router configuration screen<br>
 •	Successful ping test between the two PCs<br>
+
+## configuration:
+<img width="1600" height="900" alt="3 1" src="https://github.com/user-attachments/assets/5726fa68-9af6-45f2-874b-338fd15e8ed7" />
+<img width="1600" height="902" alt="3 2" src="https://github.com/user-attachments/assets/ce01234f-8657-4d2b-8786-b194803ba22e" />
+<img width="1600" height="905" alt="3 3" src="https://github.com/user-attachments/assets/cd656f92-7dee-4a99-97c1-289b256bdd12" />
+<img width="1600" height="893" alt="3 4" src="https://github.com/user-attachments/assets/6d0e6668-34cf-44cc-9e64-fe6353dc332e" />
+
+## PING RESULTS
+<img width="1600" height="913" alt="3 7" src="https://github.com/user-attachments/assets/d6927720-77db-45b3-ac1c-fb0389486a47" />
+<img width="1600" height="898" alt="3 8" src="https://github.com/user-attachments/assets/cac139bc-5bac-4a3b-99fb-d9655c2fc28a" />
+
+## SWITCH CONFIG
+<img width="1600" height="898" alt="3 5" src="https://github.com/user-attachments/assets/8dfd3c68-104d-4d2c-916a-99c86c0542ac" />
+
 ________________________________________
 # Result
 Successfully configured a DHCP server on the router. PCs were dynamically assigned IP addresses and were able to communicate over the network.
